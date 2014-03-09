@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="remoteVision" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\.cache\;CMake Files\..\..\..\..\.cache\qi\;CMake Files\..\..\..\..\.cache\qi\toolchains\;CMake Files\..\..\..\..\.cache\qi\toolchains\tc\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\;CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\;CMake Files\build-tc\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="remoteVision">
+         <Option output="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/sdk/bin/remoteVision" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 remoteVision" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="remoteVision/fast">
+         <Option output="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/sdk/bin/remoteVision" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include" />
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alsoap" />
+            <Add directory="/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/soap" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 remoteVision/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dmenager/NAO/AE\ 756\ Worktree/remoteVision/RemoteVision/build-tc/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/main.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../.cache/qi/toolchains/tc/toolchain-tc.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\.cache\qi\toolchains\tc\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/codegen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/gettext.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/../../../../../../usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\python2.7\dist-packages\qibuild-3.2.2-py2.7.egg\share\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-tc\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

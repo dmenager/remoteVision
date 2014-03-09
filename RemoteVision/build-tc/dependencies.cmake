@@ -4,7 +4,7 @@
 #############################################
 
 # Add path to CMake framework path if necessary:
-set(_qibuild_path "/usr/local/share/cmake")
+set(_qibuild_path "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake")
 list(FIND CMAKE_MODULE_PATH "${_qibuild_path}" _found)
 if(_found STREQUAL "-1")
   # Prefer cmake files matching  current qibuild installation
@@ -26,4 +26,4 @@ set(CMAKE_FIND_ROOT_PATH ${CMAKE_FIND_ROOT_PATH} CACHE INTERNAL ""  FORCE)
 
 
 
-set(QIBUILD_PYTHON_PATH "/usr/local/lib/python2.7/dist-packages" CACHE STRING "" FORCE)
+set(QIBUILD_PYTHON_PATH "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg" CACHE STRING "" FORCE)

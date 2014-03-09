@@ -13,9 +13,10 @@ void DMFunctions::DisplayVid(AL::ALValue& vPtr)
       cv::Mat imgHeader = cv::Mat(cv::Size(320, 240), CV_8UC3);
 
       //Create a OpenCV window to display the images.
-      cv::namedWindow("images");
+      cv::namedWindow("images", WINDOW_AUTOSIZE);
 
       imgHeader.data = (uchar*) vPtr[6].GetBinary();
 
       imshow("images", imgHeader);
+      cv::waitKey(0);
 }

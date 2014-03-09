@@ -78,6 +78,15 @@ CMakeFiles/remoteVision.dir/rule: cmake_check_build_system
 remoteVision: CMakeFiles/remoteVision.dir/rule
 .PHONY : remoteVision
 
+# Pre-install relink rule for target.
+CMakeFiles/remoteVision.dir/preinstall:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/preinstall
+.PHONY : CMakeFiles/remoteVision.dir/preinstall
+
+# Prepare target for install.
+preinstall: CMakeFiles/remoteVision.dir/preinstall
+.PHONY : preinstall
+
 # clean rule for target.
 CMakeFiles/remoteVision.dir/clean:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/clean

@@ -16,9 +16,10 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/dmenager/NAO/SDK/include"
-  "/home/dmenager/NAO/SDK/include/soap"
-  "/home/dmenager/NAO/SDK/include/alsoap"
+  "/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include"
+  "/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/soap"
+  "/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alsoap"
+  "/usr/local/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -104,3 +104,480 @@ make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/Remo
 make: *** [cmTryCompileExec62534453/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3185179361/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3185179361.dir/build.make CMakeFiles/cmTryCompileExec3185179361.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3185179361.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3185179361.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3185179361
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185179361.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3185179361.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3185179361 -rdynamic 
+CMakeFiles/cmTryCompileExec3185179361.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3185179361] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3185179361/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4074962742/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4074962742.dir/build.make CMakeFiles/cmTryCompileExec4074962742.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4074962742.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4074962742.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4074962742
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4074962742.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4074962742.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4074962742 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4074962742] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4074962742/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3886993587/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3886993587.dir/build.make CMakeFiles/cmTryCompileExec3886993587.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3886993587.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3886993587.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3886993587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3886993587.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3886993587.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3886993587 -rdynamic 
+CMakeFiles/cmTryCompileExec3886993587.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3886993587] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3886993587/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2240167560/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2240167560.dir/build.make CMakeFiles/cmTryCompileExec2240167560.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2240167560.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2240167560.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2240167560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2240167560.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2240167560.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2240167560 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2240167560] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2240167560/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4106333390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4106333390.dir/build.make CMakeFiles/cmTryCompileExec4106333390.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4106333390.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4106333390.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec4106333390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4106333390.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec4106333390.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4106333390 -rdynamic 
+CMakeFiles/cmTryCompileExec4106333390.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4106333390] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4106333390/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec476645556/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec476645556.dir/build.make CMakeFiles/cmTryCompileExec476645556.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec476645556.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec476645556.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec476645556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec476645556.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec476645556.dir/CheckFunctionExists.c.o  -o cmTryCompileExec476645556 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec476645556] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec476645556/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2524077699/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2524077699.dir/build.make CMakeFiles/cmTryCompileExec2524077699.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2524077699.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2524077699.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec2524077699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2524077699.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec2524077699.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2524077699 -rdynamic 
+CMakeFiles/cmTryCompileExec2524077699.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2524077699] Error 1
+make: *** [cmTryCompileExec2524077699/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1197355134/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1197355134.dir/build.make CMakeFiles/cmTryCompileExec1197355134.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1197355134.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1197355134.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1197355134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1197355134.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1197355134.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1197355134 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1197355134] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1197355134/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1437706803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1437706803.dir/build.make CMakeFiles/cmTryCompileExec1437706803.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1437706803.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1437706803.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec1437706803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1437706803.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1437706803.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1437706803 -rdynamic 
+CMakeFiles/cmTryCompileExec1437706803.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1437706803] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1437706803/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3028359093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3028359093.dir/build.make CMakeFiles/cmTryCompileExec3028359093.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3028359093.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3028359093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3028359093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3028359093.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3028359093.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3028359093 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3028359093] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3028359093/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2491531951/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2491531951.dir/build.make CMakeFiles/cmTryCompileExec2491531951.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2491531951.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2491531951.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec2491531951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2491531951.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec2491531951.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2491531951 -rdynamic 
+CMakeFiles/cmTryCompileExec2491531951.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2491531951] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2491531951/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2914845225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2914845225.dir/build.make CMakeFiles/cmTryCompileExec2914845225.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2914845225.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2914845225.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2914845225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2914845225.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2914845225.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2914845225 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2914845225] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2914845225/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3679459803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3679459803.dir/build.make CMakeFiles/cmTryCompileExec3679459803.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3679459803.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3679459803.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3679459803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3679459803.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3679459803.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3679459803 -rdynamic 
+CMakeFiles/cmTryCompileExec3679459803.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3679459803] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3679459803/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2553619248/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2553619248.dir/build.make CMakeFiles/cmTryCompileExec2553619248.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2553619248.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2553619248.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2553619248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2553619248.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2553619248.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2553619248 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2553619248] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2553619248/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3118105230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3118105230.dir/build.make CMakeFiles/cmTryCompileExec3118105230.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3118105230.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3118105230.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3118105230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3118105230.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3118105230.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3118105230 -rdynamic 
+CMakeFiles/cmTryCompileExec3118105230.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3118105230] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3118105230/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1095444812/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1095444812.dir/build.make CMakeFiles/cmTryCompileExec1095444812.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1095444812.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1095444812.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1095444812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1095444812.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1095444812.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1095444812 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1095444812] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1095444812/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4148863271/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4148863271.dir/build.make CMakeFiles/cmTryCompileExec4148863271.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4148863271.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4148863271.dir/CheckSymbolExists.c.o   -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec4148863271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4148863271.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec4148863271.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4148863271 -rdynamic 
+CMakeFiles/cmTryCompileExec4148863271.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4148863271] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4148863271/fast] Error 2
+
+File /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3084735463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3084735463.dir/build.make CMakeFiles/cmTryCompileExec3084735463.dir/build
+make[1]: Entering directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3084735463.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3084735463.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3084735463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3084735463.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3084735463.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3084735463 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3084735463] Error 1
+make[1]: Leaving directory `/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3084735463/fast] Error 2
+
+

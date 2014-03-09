@@ -18,125 +18,123 @@
 ALAUDIO_DEBUG_LIBRARY:FILEPATH=ALAUDIO_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALAUDIO.
-ALAUDIO_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alaudio
+ALAUDIO_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alaudio
 
-ALAUDIO_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALAUDIO_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALAUDIO_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalaudio.so
+ALAUDIO_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 
 //Path to a library.
 ALCOMMON-INTERNAL_DEBUG_LIBRARY:FILEPATH=ALCOMMON-INTERNAL_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALCOMMON-INTERNAL.
-ALCOMMON-INTERNAL_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alcommon-internal
+ALCOMMON-INTERNAL_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alcommon-internal
 
-ALCOMMON-INTERNAL_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALCOMMON-INTERNAL_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALCOMMON-INTERNAL_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalcommon.so
+ALCOMMON-INTERNAL_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalcommon.so
 
 //Path to a library.
 ALCOMMON_DEBUG_LIBRARY:FILEPATH=ALCOMMON_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALCOMMON.
-ALCOMMON_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alcommon
+ALCOMMON_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alcommon
 
-ALCOMMON_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALCOMMON_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALCOMMON_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalproxies.so
+ALCOMMON_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalproxies.so
 
 //Path to a library.
 ALERROR_DEBUG_LIBRARY:FILEPATH=ALERROR_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALERROR.
-ALERROR_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alerror
+ALERROR_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alerror
 
-ALERROR_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALERROR_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALERROR_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalerror.so
+ALERROR_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalerror.so
 
 //Path to a library.
 ALEXTRACTOR_DEBUG_LIBRARY:FILEPATH=ALEXTRACTOR_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALEXTRACTOR.
-ALEXTRACTOR_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alextractor
+ALEXTRACTOR_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alextractor
 
-ALEXTRACTOR_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALEXTRACTOR_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALEXTRACTOR_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalextractor.so
+ALEXTRACTOR_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalextractor.so
 
 //Path to a library.
 ALPROXIES_DEBUG_LIBRARY:FILEPATH=ALPROXIES_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALPROXIES.
-ALPROXIES_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alproxies
+ALPROXIES_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alproxies
 
-ALPROXIES_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALPROXIES_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALPROXIES_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalproxies.so
+ALPROXIES_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalproxies.so
 
 //Path to a library.
 ALSOAP_DEBUG_LIBRARY:FILEPATH=ALSOAP_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALSOAP.
-ALSOAP_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alsoap
+ALSOAP_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alsoap
 
-ALSOAP_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;/home/dmenager/NAO/SDK/include/soap;/home/dmenager/NAO/SDK/include/alsoap
+ALSOAP_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/soap;/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alsoap
 
 //Path to a library.
-ALSOAP_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalsoap.so
+ALSOAP_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalsoap.so
 
 //Path to a library.
 ALTHREAD_DEBUG_LIBRARY:FILEPATH=ALTHREAD_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALTHREAD.
-ALTHREAD_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/althread
+ALTHREAD_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/althread
 
-ALTHREAD_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALTHREAD_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALTHREAD_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalthread.so
+ALTHREAD_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalthread.so
 
 //Path to a library.
 ALVALUE_DEBUG_LIBRARY:FILEPATH=ALVALUE_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALVALUE.
-ALVALUE_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alvalue
+ALVALUE_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alvalue
 
-ALVALUE_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALVALUE_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALVALUE_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalvalue.so
+ALVALUE_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvalue.so
 
 //Path to a library.
 ALVISION_DEBUG_LIBRARY:FILEPATH=ALVISION_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for ALVISION.
-ALVISION_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/alvision
+ALVISION_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/alvision
 
-ALVISION_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+ALVISION_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-ALVISION_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libalvision.so
-
-AVCAPTURE_DEPENDS:STRING=ALAUDIO;ALVISION;ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
+ALVISION_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
 
 //module is compiled as a remote module (ON or OFF)
 AVCAPTURE_IS_REMOTE:BOOL=ON
 
 //The directory containing a CMake configuration file for BOOST.
-BOOST_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_FILESYSTEM_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for BOOST_FILESYSTEM.
-BOOST_FILESYSTEM_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_FILESYSTEM_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_FILESYSTEM_EXECUTABLE:STRING=
@@ -148,7 +146,7 @@ BOOST_FILESYSTEM_EXECUTABLE_DEBUG:STRING=
 BOOST_PROGRAM_OPTIONS_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for BOOST_PROGRAM_OPTIONS.
-BOOST_PROGRAM_OPTIONS_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_PROGRAM_OPTIONS_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_PROGRAM_OPTIONS_EXECUTABLE:STRING=
@@ -160,7 +158,7 @@ BOOST_PROGRAM_OPTIONS_EXECUTABLE_DEBUG:STRING=
 BOOST_SIGNALS_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for BOOST_SIGNALS.
-BOOST_SIGNALS_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_SIGNALS_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_SIGNALS_EXECUTABLE:STRING=
@@ -172,7 +170,7 @@ BOOST_SIGNALS_EXECUTABLE_DEBUG:STRING=
 BOOST_SYSTEM_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for BOOST_SYSTEM.
-BOOST_SYSTEM_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_SYSTEM_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_SYSTEM_EXECUTABLE:STRING=
@@ -184,7 +182,7 @@ BOOST_SYSTEM_EXECUTABLE_DEBUG:STRING=
 BOOST_THREAD_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for BOOST_THREAD.
-BOOST_THREAD_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+BOOST_THREAD_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 BOOST_THREAD_EXECUTABLE:STRING=
@@ -192,63 +190,44 @@ BOOST_THREAD_EXECUTABLE:STRING=
 //Cleared.
 BOOST_THREAD_EXECUTABLE_DEBUG:STRING=
 
-//If OFF, no test will be built, and `qibuild test` won't run any
-// test
-BUILD_TESTS:BOOL=ON
-
-//The Boost FILESYSTEM library
-Boost_FILESYSTEM_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_filesystem-mt.a
+//The threading library used by boost-thread
+BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
 
 //Boost filesystem library (debug)
-Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_filesystem-mt.a
+Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_filesystem-mt.a
 
 //Boost filesystem library (release)
-Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_filesystem-mt.a
+Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_filesystem-mt.a
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=/home/dmenager/NAO/SDK/include
+Boost_INCLUDE_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
 
 //Boost library directory
-Boost_LIBRARY_DIRS:FILEPATH=/home/dmenager/NAO/SDK/lib
-
-//The Boost PROGRAM_OPTIONS library
-Boost_PROGRAM_OPTIONS_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_program_options-mt.a
+Boost_LIBRARY_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib
 
 //Boost program_options library (debug)
-Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_program_options-mt.a
+Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_program_options-mt.a
 
 //Boost program_options library (release)
-Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_program_options-mt.a
-
-//The Boost SIGNALS library
-Boost_SIGNALS_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_signals-mt.a
+Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_program_options-mt.a
 
 //Boost signals library (debug)
-Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_signals-mt.a
+Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_signals-mt.a
 
 //Boost signals library (release)
-Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_signals-mt.a
-
-//The Boost SYSTEM library
-Boost_SYSTEM_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_system-mt.a
+Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_signals-mt.a
 
 //Boost system library (debug)
-Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_system-mt.a
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_system-mt.a
 
 //Boost system library (release)
-Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_system-mt.a
-
-//The Boost THREAD library
-Boost_THREAD_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_thread-mt.a
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_system-mt.a
 
 //Boost thread library (debug)
-Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_thread-mt.a
+Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_thread-mt.a
 
 //Boost thread library (release)
-Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/lib/libboost_thread-mt.a
-
-//Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
+Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_thread-mt.a
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
@@ -275,7 +254,7 @@ CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the compiler during Release with Debug Info builds.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler.
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
@@ -295,7 +274,7 @@ CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the compiler during Release with Debug Info builds.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Flags used by the linker.
 CMAKE_EXE_LINKER_FLAGS:STRING=' '
@@ -316,9 +295,6 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld
-
-//Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules.
@@ -336,20 +312,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
-
-//Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
-
-//Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
-
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=remoteVision
-
-//Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -373,11 +337,8 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 //If set, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=NO
 
-//Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
-
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/dmenager/.cache/qi/toolchains/tc/toolchain-tc.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/dmenager/.cache/qi/toolchains/tc/toolchain-tc.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -392,7 +353,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 DL_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for DL.
-DL_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+DL_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 DL_EXECUTABLE:STRING=
@@ -401,31 +362,16 @@ DL_EXECUTABLE:STRING=
 DL_EXECUTABLE_DEBUG:STRING=
 
 //The directory containing a CMake configuration file for OPENCV2_CORE.
-OPENCV2_CORE_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+OPENCV2_CORE_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //The directory containing a CMake configuration file for OPENCV2_HIGHGUI.
-OPENCV2_HIGHGUI_DIR:PATH=/usr/local/share/cmake/qibuild/modules
-
-//Cleared.
-OPENCV_DEFINITIONS:STRING=
-
-//The directory containing a CMake configuration file for OPENCV.
-OPENCV_DIR:PATH=/usr/local/share/cmake/qibuild/modules
-
-//Cleared.
-OPENCV_EXECUTABLE:STRING=
-
-//Cleared.
-OPENCV_EXECUTABLE_DEBUG:STRING=
-
-//Cleared.
-OPENCV_LIBRARIES:STRING=
+OPENCV2_HIGHGUI_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 PTHREAD_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for PTHREAD.
-PTHREAD_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+PTHREAD_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 PTHREAD_EXECUTABLE:STRING=
@@ -433,21 +379,43 @@ PTHREAD_EXECUTABLE:STRING=
 //Cleared.
 PTHREAD_EXECUTABLE_DEBUG:STRING=
 
-QIBUILD_PYTHON_PATH:STRING=/usr/local/lib/python2.7/dist-packages
+//Path to a program.
+PYTHON2_EXECUTABLE:FILEPATH=/usr/bin/python2
+
+QIBUILD_PYTHON_PATH:STRING=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg
+
+//qibuild version
+QIBUILD_VERSION:STRING=3.2.2
 
 //Path to a library.
 QI_DEBUG_LIBRARY:FILEPATH=QI_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for QI.
-QI_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/qi
+QI_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/qi
 
-QI_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+//Force 32bits build even when on 64bits
+QI_FORCE_32_BITS:BOOL=OFF
+
+QI_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-QI_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libqi.so
+QI_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libqi.so
+
+//Enable code coverage
+QI_WITH_COVERAGE:BOOL=OFF
+
+//Default is to follow CMAKE_BUILD_TYPE
+QI_WITH_DEBUG_INFO:BOOL=ON
 
 //triggers building of nightly tests
-QI_NIGHTLY_TESTS:BOOL=OFF
+QI_WITH_NIGHTLY_TESTS:BOOL=OFF
+
+//Triggers building of perf tests
+QI_WITH_PERF_TESTS:BOOL=OFF
+
+//If OFF, no test will be built, and `qibuild test` won't run any
+// test
+QI_WITH_TESTS:BOOL=ON
 
 REMOTEVISION_DEPENDS:STRING=ALAUDIO;ALVISION;ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST;OPENCV2_HIGHGUI;OPENCV2_CORE
 
@@ -455,18 +423,18 @@ REMOTEVISION_DEPENDS:STRING=ALAUDIO;ALVISION;ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCO
 RTTOOLS_DEBUG_LIBRARY:FILEPATH=RTTOOLS_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for RTTOOLS.
-RTTOOLS_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/rttools
+RTTOOLS_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/rttools
 
-RTTOOLS_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+RTTOOLS_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-RTTOOLS_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/librttools.so
+RTTOOLS_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/librttools.so
 
 //Cleared.
 RT_DEFINITIONS:STRING=
 
 //The directory containing a CMake configuration file for RT.
-RT_DIR:PATH=/usr/local/share/cmake/qibuild/modules
+RT_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
 //Cleared.
 RT_EXECUTABLE:STRING=
@@ -474,49 +442,16 @@ RT_EXECUTABLE:STRING=
 //Cleared.
 RT_EXECUTABLE_DEBUG:STRING=
 
-//Value Computed by CMake
-RemoteVision_BINARY_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc
-
-//Value Computed by CMake
-RemoteVision_SOURCE_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision
-
 //Path to a library.
 TINYXML_DEBUG_LIBRARY:FILEPATH=TINYXML_DEBUG_LIBRARY-NOTFOUND
 
 //The directory containing a CMake configuration file for TINYXML.
-TINYXML_DIR:PATH=/home/dmenager/NAO/SDK/share/cmake/tinyxml
+TINYXML_DIR:PATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/share/cmake/tinyxml
 
-TINYXML_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/include;
+TINYXML_INCLUDE_DIRS:STRING=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include;
 
 //Path to a library.
-TINYXML_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/lib/libtinyxml.so
-
-//ON
-VIDEOCAPTURE_IS_REMOTE:BOOL=OFF
-
-//No help, variable specified on the command line.
-WITH_QT:UNINITIALIZED=ON
-
-//Path to a program.
-_python2_executable:FILEPATH=/usr/bin/python2
-
-//Value Computed by CMake
-audiovideocapture_BINARY_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc
-
-//Value Computed by CMake
-audiovideocapture_SOURCE_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision
-
-//Cleared.
-cv.h_INCLUDE:PATH=/home/dmenager/NAO/SDK/include/opencv
-
-//Cleared.
-cv_LIB:FILEPATH=cv_LIB-NOTFOUND
-
-//Cleared.
-cvaux_LIB:FILEPATH=cvaux_LIB-NOTFOUND
-
-//Cleared.
-cxcore_LIB:FILEPATH=cxcore_LIB-NOTFOUND
+TINYXML_LIBRARY:FILEPATH=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libtinyxml.so
 
 //Cleared.
 dl_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.so
@@ -525,37 +460,16 @@ dl_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.so
 dlfcn.h_INCLUDE:PATH=/usr/include
 
 //Cleared.
-highgui_LIB:FILEPATH=highgui_LIB-NOTFOUND
+opencv2/core/core.hpp_INCLUDE:PATH=/usr/local/include
 
 //Cleared.
-ml_LIB:FILEPATH=ml_LIB-NOTFOUND
-
-//The directory containing a CMake configuration file for opencv-2.4.1.
-opencv-2.4.1_DIR:PATH=opencv-2.4.1_DIR-NOTFOUND
+opencv2/highgui/highgui.hpp_INCLUDE:PATH=/usr/local/include
 
 //Cleared.
-opencv/cv.h_INCLUDE:PATH=/home/dmenager/NAO/SDK/include
-
-//The directory containing a CMake configuration file for opencv2.4.1.
-opencv2.4.1_DIR:PATH=opencv2.4.1_DIR-NOTFOUND
+opencv_core_LIB:FILEPATH=/usr/local/lib/libopencv_core.so
 
 //Cleared.
-opencv2/core/core.hpp_INCLUDE:PATH=/home/dmenager/NAO/SDK/include
-
-//Cleared.
-opencv2/highgui/highgui.hpp_INCLUDE:PATH=/home/dmenager/NAO/SDK/include
-
-//The directory containing a CMake configuration file for opencv_2.4.1.
-opencv_2.4.1_DIR:PATH=opencv_2.4.1_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for opencv.
-opencv_DIR:PATH=/usr/local/share/cmake/qibuild/modules
-
-//Cleared.
-opencv_core_LIB:FILEPATH=/home/dmenager/NAO/SDK/lib/libopencv_core.so
-
-//Cleared.
-opencv_highgui_LIB:FILEPATH=/home/dmenager/NAO/SDK/lib/libopencv_highgui.so
+opencv_highgui_LIB:FILEPATH=/usr/local/lib/libopencv_highgui.so
 
 //Cleared.
 pthread.h_INCLUDE:PATH=/usr/include
@@ -565,12 +479,6 @@ remoteVision_BINARY_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/R
 
 //Value Computed by CMake
 remoteVision_SOURCE_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision
-
-//Value Computed by CMake
-remotevision_BINARY_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc
-
-//Value Computed by CMake
-remotevision_SOURCE_DIR:STATIC=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision
 
 //Cleared.
 rt_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
@@ -586,53 +494,51 @@ time.h_INCLUDE:PATH=/usr/include
 ALAUDIO_DEPENDS:INTERNAL=ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALAUDIO_INCLUDE_DIRS
 ALAUDIO_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALAUDIO_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalaudio.so
+ALAUDIO_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 ALAUDIO_PACKAGE_FOUND:INTERNAL=TRUE
 ALCOMMON-INTERNAL_DEPENDS:INTERNAL=ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
-ALCOMMON-INTERNAL_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalcommon.so
+ALCOMMON-INTERNAL_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalcommon.so
 ALCOMMON-INTERNAL_PACKAGE_FOUND:INTERNAL=TRUE
 ALCOMMON_DEPENDS:INTERNAL=ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALCOMMON_INCLUDE_DIRS
 ALCOMMON_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALCOMMON_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalproxies.so
+ALCOMMON_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalproxies.so
 ALCOMMON_PACKAGE_FOUND:INTERNAL=TRUE
 ALERROR_DEPENDS:INTERNAL=
 //ADVANCED property for variable: ALERROR_INCLUDE_DIRS
 ALERROR_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALERROR_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalerror.so
+ALERROR_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalerror.so
 ALERROR_PACKAGE_FOUND:INTERNAL=TRUE
 ALEXTRACTOR_DEPENDS:INTERNAL=ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
 //ADVANCED property for variable: ALEXTRACTOR_INCLUDE_DIRS
 ALEXTRACTOR_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALEXTRACTOR_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalextractor.so
+ALEXTRACTOR_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalextractor.so
 ALEXTRACTOR_PACKAGE_FOUND:INTERNAL=TRUE
 ALPROXIES_DEPENDS:INTERNAL=ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALPROXIES_INCLUDE_DIRS
 ALPROXIES_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALPROXIES_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalproxies.so
+ALPROXIES_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalproxies.so
 ALPROXIES_PACKAGE_FOUND:INTERNAL=TRUE
 ALSOAP_DEPENDS:INTERNAL=ALVALUE;TINYXML;ALERROR;BOOST
 //ADVANCED property for variable: ALSOAP_INCLUDE_DIRS
 ALSOAP_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALSOAP_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalsoap.so
+ALSOAP_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalsoap.so
 ALSOAP_PACKAGE_FOUND:INTERNAL=TRUE
 ALTHREAD_DEPENDS:INTERNAL=QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
 //ADVANCED property for variable: ALTHREAD_INCLUDE_DIRS
 ALTHREAD_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALTHREAD_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalthread.so
+ALTHREAD_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalthread.so
 ALTHREAD_PACKAGE_FOUND:INTERNAL=TRUE
 ALVALUE_DEPENDS:INTERNAL=ALERROR;BOOST
 //ADVANCED property for variable: ALVALUE_INCLUDE_DIRS
 ALVALUE_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALVALUE_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalvalue.so
+ALVALUE_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvalue.so
 ALVALUE_PACKAGE_FOUND:INTERNAL=TRUE
 ALVISION_DEPENDS:INTERNAL=ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALVISION_INCLUDE_DIRS
 ALVISION_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALVISION_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libalvision.so
+ALVISION_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
 ALVISION_PACKAGE_FOUND:INTERNAL=TRUE
-//ADVANCED property for variable: AVCAPTURE_DEPENDS
-AVCAPTURE_DEPENDS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_FILESYSTEM_DEFINITIONS
 BOOST_FILESYSTEM_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_FILESYSTEM_DEPENDS:INTERNAL=BOOST_SYSTEM
@@ -640,11 +546,11 @@ BOOST_FILESYSTEM_DEPENDS:INTERNAL=BOOST_SYSTEM
 BOOST_FILESYSTEM_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_FILESYSTEM_EXECUTABLE_DEBUG
 BOOST_FILESYSTEM_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-BOOST_FILESYSTEM_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-BOOST_FILESYSTEM_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libboost_filesystem-mt.a
+BOOST_FILESYSTEM_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+BOOST_FILESYSTEM_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_filesystem-mt.a
 BOOST_FILESYSTEM_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_FILESYSTEM_SEARCHED:INTERNAL=TRUE
-BOOST_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
+BOOST_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
 BOOST_PACKAGE_FOUND:INTERNAL=TRUE
 //ADVANCED property for variable: BOOST_PROGRAM_OPTIONS_DEFINITIONS
 BOOST_PROGRAM_OPTIONS_DEFINITIONS-ADVANCED:INTERNAL=1
@@ -652,8 +558,8 @@ BOOST_PROGRAM_OPTIONS_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_PROGRAM_OPTIONS_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_PROGRAM_OPTIONS_EXECUTABLE_DEBUG
 BOOST_PROGRAM_OPTIONS_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-BOOST_PROGRAM_OPTIONS_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-BOOST_PROGRAM_OPTIONS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libboost_program_options-mt.a
+BOOST_PROGRAM_OPTIONS_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+BOOST_PROGRAM_OPTIONS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_program_options-mt.a
 BOOST_PROGRAM_OPTIONS_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_PROGRAM_OPTIONS_SEARCHED:INTERNAL=TRUE
 BOOST_SEARCHED:INTERNAL=TRUE
@@ -663,8 +569,8 @@ BOOST_SIGNALS_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_SIGNALS_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_SIGNALS_EXECUTABLE_DEBUG
 BOOST_SIGNALS_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-BOOST_SIGNALS_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-BOOST_SIGNALS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libboost_signals-mt.a
+BOOST_SIGNALS_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+BOOST_SIGNALS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_signals-mt.a
 BOOST_SIGNALS_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_SIGNALS_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: BOOST_SYSTEM_DEFINITIONS
@@ -673,8 +579,8 @@ BOOST_SYSTEM_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_SYSTEM_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_SYSTEM_EXECUTABLE_DEBUG
 BOOST_SYSTEM_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-BOOST_SYSTEM_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-BOOST_SYSTEM_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libboost_system-mt.a
+BOOST_SYSTEM_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+BOOST_SYSTEM_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_system-mt.a
 BOOST_SYSTEM_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_SYSTEM_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: BOOST_THREAD_DEFINITIONS
@@ -684,60 +590,36 @@ BOOST_THREAD_DEPENDS:INTERNAL=PTHREAD
 BOOST_THREAD_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_THREAD_EXECUTABLE_DEBUG
 BOOST_THREAD_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-BOOST_THREAD_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-BOOST_THREAD_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libboost_thread-mt.a;pthread
+BOOST_THREAD_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+BOOST_THREAD_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboost_thread-mt.a;/usr/lib/x86_64-linux-gnu/libpthread.so
 BOOST_THREAD_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_THREAD_SEARCHED:INTERNAL=TRUE
-//Whether the Boost FILESYSTEM library found
-Boost_FILESYSTEM_FOUND:INTERNAL=ON
-//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY
-Boost_FILESYSTEM_LIBRARY-ADVANCED:INTERNAL=1
+BUILD_PERF_TESTS:INTERNAL=OFF
+BUILD_TESTS:INTERNAL=ON
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
 Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
 Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_LIBRARY_DIRS
-Boost_LIBRARY_DIRS-ADVANCED:INTERNAL=1
-//The library version string for boost libraries
-Boost_LIB_VERSION:INTERNAL=1_48
-//Whether the Boost PROGRAM_OPTIONS library found
-Boost_PROGRAM_OPTIONS_FOUND:INTERNAL=ON
-//ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY
-Boost_PROGRAM_OPTIONS_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR
+Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG
 Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE
 Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Whether the Boost SIGNALS library found
-Boost_SIGNALS_FOUND:INTERNAL=ON
-//ADVANCED property for variable: Boost_SIGNALS_LIBRARY
-Boost_SIGNALS_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SIGNALS_LIBRARY_DEBUG
 Boost_SIGNALS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SIGNALS_LIBRARY_RELEASE
 Boost_SIGNALS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Whether the Boost SYSTEM library found
-Boost_SYSTEM_FOUND:INTERNAL=ON
-//ADVANCED property for variable: Boost_SYSTEM_LIBRARY
-Boost_SYSTEM_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
 Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
 Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//Whether the Boost THREAD library found
-Boost_THREAD_FOUND:INTERNAL=ON
-//ADVANCED property for variable: Boost_THREAD_LIBRARY
-Boost_THREAD_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
 Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
 Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//The version number for boost libraries
-Boost_VERSION:INTERNAL=104800
-//ADVANCED property for variable: CMAKE_AR
-CMAKE_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_BUILD_TOOL
 CMAKE_BUILD_TOOL-ADVANCED:INTERNAL=1
 //What is the target build tool cmake is generating for.
@@ -749,7 +631,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=2
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=8
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=9
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=11
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -758,9 +640,6 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
-CMAKE_CXX_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -771,9 +650,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
-CMAKE_C_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -784,12 +660,6 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Result of TRY_COMPILE
-CMAKE_DETERMINE_CXX_ABI_COMPILED:INTERNAL=TRUE
-//Result of TRY_COMPILE
-CMAKE_DETERMINE_C_ABI_COMPILED:INTERNAL=TRUE
-//Executable file format
-CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -802,11 +672,13 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
-CMAKE_FIND_ROOT_PATH:INTERNAL=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/sdk;/home/dmenager/NAO/SDK;/usr/local/share/cmake/qibuild/modules/
+CMAKE_FIND_ROOT_PATH:INTERNAL=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/sdk;/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64;/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules/
 //FORCE
 CMAKE_FRAMEWORK_PATH:INTERNAL=
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+//Name of generator toolset.
+CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Have symbol pthread_create
 CMAKE_HAVE_LIBC_CREATE:INTERNAL=
 //Have library pthreads
@@ -821,8 +693,6 @@ CMAKE_HOME_DIRECTORY:INTERNAL=/home/dmenager/NAO/AE 756 Worktree/remoteVision/Re
 CMAKE_INSTALL_PREFIX:INTERNAL=/
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
-//ADVANCED property for variable: CMAKE_LINKER
-CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -835,17 +705,9 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-CMAKE_MODULE_PATH:INTERNAL=/usr/local/share/cmake;/usr/local/share/cmake/qibuild/..
-//ADVANCED property for variable: CMAKE_NM
-CMAKE_NM-ADVANCED:INTERNAL=1
+CMAKE_MODULE_PATH:INTERNAL=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake;/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/..
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RANLIB
-CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-2.8
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -862,10 +724,6 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH
 CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_STRIP
-CMAKE_STRIP-ADVANCED:INTERNAL=1
-//uname command
-CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_USE_RELATIVE_PATHS
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
@@ -880,26 +738,15 @@ DL_INCLUDE_DIRS:INTERNAL=/usr/include
 DL_LIBRARIES:INTERNAL=general;/usr/lib/x86_64-linux-gnu/libdl.so
 DL_PACKAGE_FOUND:INTERNAL=TRUE
 DL_SEARCHED:INTERNAL=TRUE
-OPENCV2_CORE_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-OPENCV2_CORE_LIBRARIES:INTERNAL=general;/home/dmenager/NAO/SDK/lib/libopencv_core.so
+OPENCV2_CORE_INCLUDE_DIRS:INTERNAL=/usr/local/include
+OPENCV2_CORE_LIBRARIES:INTERNAL=general;/usr/local/lib/libopencv_core.so
 OPENCV2_CORE_PACKAGE_FOUND:INTERNAL=TRUE
 OPENCV2_CORE_SEARCHED:INTERNAL=TRUE
 OPENCV2_HIGHGUI_DEPENDS:INTERNAL=OPENCV2_CORE
-OPENCV2_HIGHGUI_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include
-OPENCV2_HIGHGUI_LIBRARIES:INTERNAL=general;/home/dmenager/NAO/SDK/lib/libopencv_highgui.so
+OPENCV2_HIGHGUI_INCLUDE_DIRS:INTERNAL=/usr/local/include
+OPENCV2_HIGHGUI_LIBRARIES:INTERNAL=general;/usr/local/lib/libopencv_highgui.so
 OPENCV2_HIGHGUI_PACKAGE_FOUND:INTERNAL=TRUE
 OPENCV2_HIGHGUI_SEARCHED:INTERNAL=TRUE
-//ADVANCED property for variable: OPENCV_DEFINITIONS
-OPENCV_DEFINITIONS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENCV_EXECUTABLE
-OPENCV_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENCV_EXECUTABLE_DEBUG
-OPENCV_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-OPENCV_INCLUDE_DIRS:INTERNAL=/home/dmenager/NAO/SDK/include/opencv;/home/dmenager/NAO/SDK/include
-//ADVANCED property for variable: OPENCV_LIBRARIES
-OPENCV_LIBRARIES-ADVANCED:INTERNAL=1
-OPENCV_PACKAGE_FOUND:INTERNAL=FALSE
-OPENCV_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: PTHREAD_DEFINITIONS
 PTHREAD_DEFINITIONS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PTHREAD_EXECUTABLE
@@ -913,7 +760,8 @@ PTHREAD_SEARCHED:INTERNAL=TRUE
 QI_DEPENDS:INTERNAL=BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
 //ADVANCED property for variable: QI_INCLUDE_DIRS
 QI_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-QI_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libqi.so
+QI_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libqi.so
+QI_NIGHTLY_TESTS:INTERNAL=OFF
 QI_PACKAGE_FOUND:INTERNAL=TRUE
 //ADVANCED property for variable: QI_SDK_BIN
 QI_SDK_BIN-ADVANCED:INTERNAL=1
@@ -946,7 +794,7 @@ REMOTEVISION_DEPENDS-ADVANCED:INTERNAL=1
 RTTOOLS_DEPENDS:INTERNAL=QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;RT
 //ADVANCED property for variable: RTTOOLS_INCLUDE_DIRS
 RTTOOLS_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-RTTOOLS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/librttools.so
+RTTOOLS_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/librttools.so
 RTTOOLS_PACKAGE_FOUND:INTERNAL=TRUE
 //ADVANCED property for variable: RT_DEFINITIONS
 RT_DEFINITIONS-ADVANCED:INTERNAL=1
@@ -958,34 +806,31 @@ RT_INCLUDE_DIRS:INTERNAL=/usr/include
 RT_LIBRARIES:INTERNAL=general;/usr/lib/x86_64-linux-gnu/librt.so
 RT_PACKAGE_FOUND:INTERNAL=TRUE
 RT_SEARCHED:INTERNAL=TRUE
-RemoteVision_NO_INSTALL:INTERNAL=FALSE
-RemoteVision_SUBFOLDER:INTERNAL=
 TINYXML_DEPENDS:INTERNAL=
 //ADVANCED property for variable: TINYXML_INCLUDE_DIRS
 TINYXML_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-TINYXML_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/lib/libtinyxml.so
+TINYXML_LIBRARIES:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libtinyxml.so
 TINYXML_PACKAGE_FOUND:INTERNAL=TRUE
-_TESTS_RESULTS_FOLDER:INTERNAL=/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/test-results
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=filesystem;program_options;signals;system;thread
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include
+//Last used Boost_LIBRARY_DIR value.
+_Boost_LIBRARY_DIR_LAST:INTERNAL=/home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 _dpkg_architecture:INTERNAL=/usr/bin/dpkg-architecture
-avcapture_NO_INSTALL:INTERNAL=FALSE
-avcapture_SUBFOLDER:INTERNAL=
-//ADVANCED property for variable: cv.h_INCLUDE
-cv.h_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: dlfcn.h_INCLUDE
 dlfcn.h_INCLUDE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: opencv/cv.h_INCLUDE
-opencv/cv.h_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: opencv2/core/core.hpp_INCLUDE
 opencv2/core/core.hpp_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: opencv2/highgui/highgui.hpp_INCLUDE
 opencv2/highgui/highgui.hpp_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pthread.h_INCLUDE
 pthread.h_INCLUDE-ADVANCED:INTERNAL=1
-qibuild_DIR:INTERNAL=/usr/local/share/cmake/qibuild
+qibuild_DIR:INTERNAL=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild
 remoteVision_NO_INSTALL:INTERNAL=FALSE
 remoteVision_SUBFOLDER:INTERNAL=
-test_RemoteVision_NO_INSTALL:INTERNAL=TRUE
-test_RemoteVision_SUBFOLDER:INTERNAL=
 //ADVANCED property for variable: time.h_INCLUDE
 time.h_INCLUDE-ADVANCED:INTERNAL=1
 

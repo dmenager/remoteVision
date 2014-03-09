@@ -4,6 +4,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/remoteVision.dir/dmfunctions.cpp.o"
   "sdk/bin/remoteVision.pdb"
   "sdk/bin/remoteVision"
+  "sdk/bin/remoteVision.pdb"
+  "CMakeFiles/CMakeRelink.dir/remoteVision"
 )
 
 # Per-language clean rules from dependency scanning.
