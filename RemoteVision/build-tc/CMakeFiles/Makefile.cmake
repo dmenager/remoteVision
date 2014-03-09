@@ -27,6 +27,8 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/tests.cmake"
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/internal/uselib.cmake"
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/log.cmake"
+  "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules/opencv2_imgproc-config.cmake"
+  "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules/opencv2utils.cmake"
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/option.cmake"
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/python.cmake"
   "/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/qibuild-config.cmake"

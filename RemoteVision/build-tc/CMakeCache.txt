@@ -367,6 +367,9 @@ OPENCV2_CORE_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7
 //The directory containing a CMake configuration file for OPENCV2_HIGHGUI.
 OPENCV2_HIGHGUI_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
 
+//The directory containing a CMake configuration file for OPENCV2_IMGPROC.
+OPENCV2_IMGPROC_DIR:PATH=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild/modules
+
 //Cleared.
 PTHREAD_DEFINITIONS:STRING=
 
@@ -417,7 +420,7 @@ QI_WITH_PERF_TESTS:BOOL=OFF
 // test
 QI_WITH_TESTS:BOOL=ON
 
-REMOTEVISION_DEPENDS:STRING=ALAUDIO;ALVISION;ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST;OPENCV2_HIGHGUI;OPENCV2_CORE
+REMOTEVISION_DEPENDS:STRING=ALAUDIO;ALVISION;ALEXTRACTOR;ALPROXIES;ALCOMMON;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;RT;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST;OPENCV2_HIGHGUI;OPENCV2_IMGPROC;OPENCV2_CORE
 
 //Path to a library.
 RTTOOLS_DEBUG_LIBRARY:FILEPATH=RTTOOLS_DEBUG_LIBRARY-NOTFOUND
@@ -466,10 +469,16 @@ opencv2/core/core.hpp_INCLUDE:PATH=/usr/local/include
 opencv2/highgui/highgui.hpp_INCLUDE:PATH=/usr/local/include
 
 //Cleared.
+opencv2/imgproc/imgproc.hpp_INCLUDE:PATH=/usr/local/include
+
+//Cleared.
 opencv_core_LIB:FILEPATH=/usr/local/lib/libopencv_core.so
 
 //Cleared.
 opencv_highgui_LIB:FILEPATH=/usr/local/lib/libopencv_highgui.so
+
+//Cleared.
+opencv_imgproc_LIB:FILEPATH=/usr/local/lib/libopencv_imgproc.so
 
 //Cleared.
 pthread.h_INCLUDE:PATH=/usr/include
@@ -747,6 +756,11 @@ OPENCV2_HIGHGUI_INCLUDE_DIRS:INTERNAL=/usr/local/include
 OPENCV2_HIGHGUI_LIBRARIES:INTERNAL=general;/usr/local/lib/libopencv_highgui.so
 OPENCV2_HIGHGUI_PACKAGE_FOUND:INTERNAL=TRUE
 OPENCV2_HIGHGUI_SEARCHED:INTERNAL=TRUE
+OPENCV2_IMGPROC_DEPENDS:INTERNAL=OPENCV2_CORE
+OPENCV2_IMGPROC_INCLUDE_DIRS:INTERNAL=/usr/local/include
+OPENCV2_IMGPROC_LIBRARIES:INTERNAL=general;/usr/local/lib/libopencv_imgproc.so
+OPENCV2_IMGPROC_PACKAGE_FOUND:INTERNAL=TRUE
+OPENCV2_IMGPROC_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: PTHREAD_DEFINITIONS
 PTHREAD_DEFINITIONS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PTHREAD_EXECUTABLE
@@ -826,6 +840,8 @@ dlfcn.h_INCLUDE-ADVANCED:INTERNAL=1
 opencv2/core/core.hpp_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: opencv2/highgui/highgui.hpp_INCLUDE
 opencv2/highgui/highgui.hpp_INCLUDE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: opencv2/imgproc/imgproc.hpp_INCLUDE
+opencv2/imgproc/imgproc.hpp_INCLUDE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pthread.h_INCLUDE
 pthread.h_INCLUDE-ADVANCED:INTERNAL=1
 qibuild_DIR:INTERNAL=/usr/local/lib/python2.7/dist-packages/qibuild-3.2.2-py2.7.egg/share/cmake/qibuild

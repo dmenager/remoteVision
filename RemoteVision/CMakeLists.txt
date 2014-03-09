@@ -21,4 +21,4 @@ else()
   qi_create_lib(remoteVision SHARED ${_srcs} SUBFOLDER naoqi)
 endif()
 
-qi_use_lib(remoteVision ALCOMMON ALAUDIO ALVISION OPENCV2_CORE OPENCV2_HIGHGUI)
+qi_use_lib(remoteVision ALCOMMON ALAUDIO ALVISION OPENCV2_CORE OPENCV2_HIGHGUI OPENCV2_IMGPROC)

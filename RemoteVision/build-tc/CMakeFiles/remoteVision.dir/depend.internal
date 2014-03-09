@@ -712,6 +712,8 @@ CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o
  /usr/local/include/opencv2/core/version.hpp
  /usr/local/include/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv2/highgui/highgui_c.h
+ /usr/local/include/opencv2/imgproc/imgproc.hpp
+ /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
@@ -726,6 +728,8 @@ CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
  /usr/local/include/opencv2/core/version.hpp
  /usr/local/include/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv2/highgui/highgui_c.h
+ /usr/local/include/opencv2/imgproc/imgproc.hpp
+ /usr/local/include/opencv2/imgproc/types_c.h
 CMakeFiles/remoteVision.dir/main.cpp.o
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/main.cpp

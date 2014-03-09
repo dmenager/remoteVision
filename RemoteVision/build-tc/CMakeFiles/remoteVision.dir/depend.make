@@ -711,6 +711,8 @@ CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/co
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/core/version.hpp
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
+CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/imgproc/imgproc.hpp
+CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.cpp
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.h
@@ -725,6 +727,8 @@ CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/core/t
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/core/version.hpp
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/imgproc/imgproc.hpp
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 
 CMakeFiles/remoteVision.dir/main.cpp.o: ../avcaptureremote.h
 CMakeFiles/remoteVision.dir/main.cpp.o: ../main.cpp

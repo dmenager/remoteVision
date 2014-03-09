@@ -164,7 +164,7 @@ void AVCaptureRemote::xStartVideo()
   try
   {
     fVideoSubscriberId = fALVideoDevice.subscribe(
-        getName(), AL::kQQVGA, AL::kRGBColorSpace, fFramerate);
+        getName(), AL::kQVGA, AL::kRGBColorSpace, fFramerate);
     fCapturingVideo = true;
     pthread_create(&fVideoThread, 0, xVideoThread, this);
   }
@@ -190,6 +190,7 @@ void AVCaptureRemote::xStopVideo()
   }
 }
 
+
 void * AVCaptureRemote::xVideoThread(void *pArg)
 {
     DMFunctions vidMod;
@@ -205,7 +206,7 @@ void * AVCaptureRemote::xVideoThread(void *pArg)
 
   try
   {
-    while(lThis->fCapturingVideo)
+      while(lThis->fCapturingVideo && cv::waitKey(30) != 27)
     {
       if((xGetTime() - lLastBufferTime) < lDuration / 1000)
       {

@@ -153,6 +153,7 @@ sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libboo
 sdk/bin/remoteVision: /usr/lib/x86_64-linux-gnu/libdl.so
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalerror.so
 sdk/bin/remoteVision: /usr/local/lib/libopencv_highgui.so
+sdk/bin/remoteVision: /usr/local/lib/libopencv_imgproc.so
 sdk/bin/remoteVision: /usr/local/lib/libopencv_core.so
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sdk/bin/remoteVision"
@@ -197,6 +198,7 @@ CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/lib/x86_64-linux-gnu/libdl.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalerror.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_highgui.so
+CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_imgproc.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_core.so
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/remoteVision"
