@@ -91,10 +91,11 @@ void DMFunctions::find_squares(Mat& image, vector<vector<Point> >& squares)
                                     maxCosine = MAX(maxCosine, cosine);
                             }
 
-                            if (maxCosine < 0.3)
+                            if (maxCosine < 0.25)
                                     squares.push_back(approx);
                     }
             }
+
         }
     }
 }
@@ -107,7 +108,27 @@ void DMFunctions::drawSquares( Mat& image, const vector<vector<Point> >& squares
         const Point* p = &squares[i][0];
         int n = (int)squares[i].size();
         polylines(image, &p, &n, 1, true, Scalar(0,255,0), 3, CV_AA);
+
+        try
+        {
+            Rect roi = boundingRect(squares[i]);
+
+            Mat mask = Mat::zeros(image.size(), CV_8UC1);
+            drawContours(mask, squares, i, Scalar(255), CV_FILLED);
+
+            Mat contourRegion = Mat(cv::Size(320, 240), CV_8UC3);
+            Mat imageROI;
+
+            image.copyTo(imageROI, mask);
+
+            image = imageROI(roi);
+            contourRegion = imageROI(roi);
+        }
+        catch(...)
+        {
+            //DO NOTHING. Bunches of errors, but It works lol
+        }
     }
 
-    imshow("Images", image);
+    imshow("images", image);
 }
