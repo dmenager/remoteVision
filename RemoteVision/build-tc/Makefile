@@ -174,6 +174,30 @@ avcaptureremote.cpp.s:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/avcaptureremote.cpp.s
 .PHONY : avcaptureremote.cpp.s
 
+dataReader.o: dataReader.cpp.o
+.PHONY : dataReader.o
+
+# target to build an object file
+dataReader.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/dataReader.cpp.o
+.PHONY : dataReader.cpp.o
+
+dataReader.i: dataReader.cpp.i
+.PHONY : dataReader.i
+
+# target to preprocess a source file
+dataReader.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/dataReader.cpp.i
+.PHONY : dataReader.cpp.i
+
+dataReader.s: dataReader.cpp.s
+.PHONY : dataReader.s
+
+# target to generate assembly for a file
+dataReader.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/dataReader.cpp.s
+.PHONY : dataReader.cpp.s
+
 dmfunctions.o: dmfunctions.cpp.o
 .PHONY : dmfunctions.o
 
@@ -222,6 +246,54 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+neuralNetwork.o: neuralNetwork.cpp.o
+.PHONY : neuralNetwork.o
+
+# target to build an object file
+neuralNetwork.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
+.PHONY : neuralNetwork.cpp.o
+
+neuralNetwork.i: neuralNetwork.cpp.i
+.PHONY : neuralNetwork.i
+
+# target to preprocess a source file
+neuralNetwork.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetwork.cpp.i
+.PHONY : neuralNetwork.cpp.i
+
+neuralNetwork.s: neuralNetwork.cpp.s
+.PHONY : neuralNetwork.s
+
+# target to generate assembly for a file
+neuralNetwork.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetwork.cpp.s
+.PHONY : neuralNetwork.cpp.s
+
+neuralNetworkTrainer.o: neuralNetworkTrainer.cpp.o
+.PHONY : neuralNetworkTrainer.o
+
+# target to build an object file
+neuralNetworkTrainer.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
+.PHONY : neuralNetworkTrainer.cpp.o
+
+neuralNetworkTrainer.i: neuralNetworkTrainer.cpp.i
+.PHONY : neuralNetworkTrainer.i
+
+# target to preprocess a source file
+neuralNetworkTrainer.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.i
+.PHONY : neuralNetworkTrainer.cpp.i
+
+neuralNetworkTrainer.s: neuralNetworkTrainer.cpp.s
+.PHONY : neuralNetworkTrainer.s
+
+# target to generate assembly for a file
+neuralNetworkTrainer.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s
+.PHONY : neuralNetworkTrainer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,12 +309,21 @@ help:
 	@echo "... avcaptureremote.o"
 	@echo "... avcaptureremote.i"
 	@echo "... avcaptureremote.s"
+	@echo "... dataReader.o"
+	@echo "... dataReader.i"
+	@echo "... dataReader.s"
 	@echo "... dmfunctions.o"
 	@echo "... dmfunctions.i"
 	@echo "... dmfunctions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... neuralNetwork.o"
+	@echo "... neuralNetwork.i"
+	@echo "... neuralNetwork.s"
+	@echo "... neuralNetworkTrainer.o"
+	@echo "... neuralNetworkTrainer.i"
+	@echo "... neuralNetworkTrainer.s"
 .PHONY : help
 
 

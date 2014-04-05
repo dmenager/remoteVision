@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
+vector
+-
+string
+-
+
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp
 dmfunctions.h
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
+neuralNetwork.h
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+neuralNetworkTrainer.h
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
+ctime
+-
+fstream
+-
+iostream
+-
+unistd.h
+-
+cstring
+-
 
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
 alvision/alvisiondefinitions.h
@@ -23,6 +43,22 @@ opencv2/imgproc/imgproc.hpp
 -
 vector
 -
+
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+dataReader.h
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
+cstring
+-
+cstdlib
+-
+
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
+fstream
+-
+vector
+-
+neuralNetwork.h
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
 
 /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
 cstdio

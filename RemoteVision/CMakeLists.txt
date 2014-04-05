@@ -12,6 +12,13 @@ set(_srcs
   avcaptureremote.cpp
   dmfunctions.cpp
   dmfunctions.h
+  dataEntry.h
+  dataReader.cpp
+  dataReader.h
+  neuralNetwork.cpp
+  neuralNetwork.h
+  neuralNetworkTrainer.cpp
+  neuralNetworkTrainer.h
 )
 
 if(AVCAPTURE_IS_REMOTE)

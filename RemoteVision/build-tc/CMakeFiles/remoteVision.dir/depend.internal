@@ -714,9 +714,15 @@ CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o
  /usr/local/include/opencv2/highgui/highgui_c.h
  /usr/local/include/opencv2/imgproc/imgproc.hpp
  /usr/local/include/opencv2/imgproc/types_c.h
+CMakeFiles/remoteVision.dir/dataReader.cpp.o
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/config.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvision/alvisiondefinitions.h
@@ -1428,3 +1434,12 @@ CMakeFiles/remoteVision.dir/main.cpp.o
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/log.hpp
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/macro.hpp
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/os.hpp
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h

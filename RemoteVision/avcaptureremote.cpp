@@ -57,7 +57,7 @@ AVCaptureRemote::~AVCaptureRemote() {
 
 void AVCaptureRemote::init()
 {
-  //startCapture(true, true);
+    //startCapture(true, true);
     startCapture(false, true);
 }
 

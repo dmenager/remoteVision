@@ -714,8 +714,14 @@ CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/hi
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/imgproc/imgproc.hpp
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 
+CMakeFiles/remoteVision.dir/dataReader.cpp.o: ../dataReader.cpp
+CMakeFiles/remoteVision.dir/dataReader.cpp.o: ../dataReader.h
+
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dataReader.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.cpp
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.h
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../neuralNetwork.h
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../neuralNetworkTrainer.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/config.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvision/alvisiondefinitions.h
@@ -1427,4 +1433,13 @@ CMakeFiles/remoteVision.dir/main.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-
 CMakeFiles/remoteVision.dir/main.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/log.hpp
 CMakeFiles/remoteVision.dir/main.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/macro.hpp
 CMakeFiles/remoteVision.dir/main.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/qi/os.hpp
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o: ../dataReader.h
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o: ../neuralNetwork.cpp
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o: ../neuralNetwork.h
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../dataReader.h
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetwork.h
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetworkTrainer.cpp
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetworkTrainer.h
 

@@ -19,6 +19,7 @@ private:
     void find_squares(cv::Mat& image, std::vector<std::vector<cv::Point> >& squares);
     double angle(cv::Point pt1, cv::Point pt2, cv::Point pt0 );
     void drawSquares( cv::Mat& image, const std::vector<std::vector<cv::Point> >& squares );
+    void buildTrainingSet(cv::Mat& img);
 };
 
 #endif // DMFUNCTIONS_H

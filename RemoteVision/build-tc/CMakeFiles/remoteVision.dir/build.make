@@ -121,11 +121,83 @@ CMakeFiles/remoteVision.dir/dmfunctions.cpp.o.provides: CMakeFiles/remoteVision.
 
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o.provides.build: CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
 
+CMakeFiles/remoteVision.dir/dataReader.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/dataReader.cpp.o: ../dataReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/dataReader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/dataReader.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp"
+
+CMakeFiles/remoteVision.dir/dataReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/dataReader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp" > CMakeFiles/remoteVision.dir/dataReader.cpp.i
+
+CMakeFiles/remoteVision.dir/dataReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/dataReader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp" -o CMakeFiles/remoteVision.dir/dataReader.cpp.s
+
+CMakeFiles/remoteVision.dir/dataReader.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/dataReader.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/dataReader.cpp.o.provides: CMakeFiles/remoteVision.dir/dataReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/dataReader.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/dataReader.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/dataReader.cpp.o.provides.build: CMakeFiles/remoteVision.dir/dataReader.cpp.o
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o: ../neuralNetwork.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp"
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/neuralNetwork.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp" > CMakeFiles/remoteVision.dir/neuralNetwork.cpp.i
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/neuralNetwork.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp" -o CMakeFiles/remoteVision.dir/neuralNetwork.cpp.s
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.provides: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.provides.build: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetworkTrainer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp"
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp" > CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.i
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp" -o CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides.build: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
+
 # Object files for target remoteVision
 remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/main.cpp.o" \
 "CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o" \
-"CMakeFiles/remoteVision.dir/dmfunctions.cpp.o"
+"CMakeFiles/remoteVision.dir/dmfunctions.cpp.o" \
+"CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
+"CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
+"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -133,6 +205,9 @@ remoteVision_EXTERNAL_OBJECTS =
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/main.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/dataReader.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/build.make
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -170,7 +245,10 @@ CMakeFiles/remoteVision.dir/build: sdk/bin/remoteVision
 remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/main.cpp.o" \
 "CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o" \
-"CMakeFiles/remoteVision.dir/dmfunctions.cpp.o"
+"CMakeFiles/remoteVision.dir/dmfunctions.cpp.o" \
+"CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
+"CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
+"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -178,6 +256,9 @@ remoteVision_EXTERNAL_OBJECTS =
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/main.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/dataReader.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/build.make
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -214,6 +295,9 @@ CMakeFiles/remoteVision.dir/preinstall: CMakeFiles/CMakeRelink.dir/remoteVision
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/main.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/dmfunctions.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/dataReader.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires
 .PHONY : CMakeFiles/remoteVision.dir/requires
 
 CMakeFiles/remoteVision.dir/clean:

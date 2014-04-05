@@ -1,4 +1,15 @@
 #include "dmfunctions.h"
+//#include "dataEntry.h"
+//#include "dataReader.h"
+#include "neuralNetwork.h"
+#include "neuralNetworkTrainer.h"
+
+#include <ctime>
+#include <fstream>
+#include <iostream>
+#include <unistd.h>
+#include <cstring>
+
 
 using namespace cv;
 using namespace std;
@@ -6,6 +17,8 @@ DMFunctions::DMFunctions()
 {
 
 }
+
+
 
 void DMFunctions::DisplayVid(AL::ALValue& vPtr)
 {
@@ -20,6 +33,8 @@ void DMFunctions::DisplayVid(AL::ALValue& vPtr)
 
       find_squares(imgHeader, squares);
       drawSquares(imgHeader, squares);
+
+      buildTrainingSet(imgHeader);
 }
 
 double DMFunctions::angle(Point pt1, Point pt2, Point pt0)
@@ -36,7 +51,7 @@ void DMFunctions::find_squares(Mat& image, vector<vector<Point> >& squares)
 {
     // blur will enhance edge detection
     Mat blurred(image);
-    medianBlur(image, blurred, 9);
+    //medianBlur(image, blurred, 1);
 
     Mat gray0(blurred.size(), CV_8U), gray;
     vector<vector<Point> > contours;
@@ -116,13 +131,11 @@ void DMFunctions::drawSquares( Mat& image, const vector<vector<Point> >& squares
             Mat mask = Mat::zeros(image.size(), CV_8UC1);
             drawContours(mask, squares, i, Scalar(255), CV_FILLED);
 
-            Mat contourRegion = Mat(cv::Size(320, 240), CV_8UC3);
             Mat imageROI;
 
             image.copyTo(imageROI, mask);
 
             image = imageROI(roi);
-            contourRegion = imageROI(roi);
         }
         catch(...)
         {
@@ -131,4 +144,46 @@ void DMFunctions::drawSquares( Mat& image, const vector<vector<Point> >& squares
     }
 
     imshow("images", image);
+}
+
+
+void DMFunctions::buildTrainingSet(Mat& img)
+{
+    string answers[10] =
+    {"0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+     "0, 0, 0, 0, 0, 0, 0, 0, 1, 0",
+     "0, 0, 0, 0, 0, 0, 0, 1, 0, 0",
+     "0, 0, 0, 0, 0, 0, 1, 0, 0, 0",
+     "0, 0, 0, 0, 0, 1, 0, 0, 0, 0",
+     "0, 0, 0, 0, 1, 0, 0, 0, 0, 0",
+     "0, 0, 0, 1, 0, 0, 0, 0, 0, 0",
+     "0, 0, 1, 0, 0, 0, 0, 0, 0, 0",
+     "0, 1, 0, 0, 0, 0, 0, 0, 0, 0",
+     "1, 0, 0, 0, 0, 0, 0, 0, 0, 0"};
+
+    ofstream fo("customDataSet.csv", ios_base::ate | ios_base::app);
+    //to grayscale
+    cv::cvtColor(img, img, CV_BGR2GRAY);
+
+    resize(img,img,Size(30, 30));
+
+    //get pixel data
+    uint8_t* pixelPtr = (uint8_t*)img.data;
+    int cn = img.channels();
+    for(int i = 0; i < img.rows; i++)
+    {
+        for(int j = 0; j < img.cols; j += cn)
+        {
+            uint8_t Pixel;
+            Pixel = pixelPtr[i*img.cols*cn + j*cn];
+
+            // do something with value...
+            fo << (int)Pixel << ", ";
+        }
+    }
+
+    fo << answers[0];
+    fo << "\n";
+    fo.close();
+    sleep(5);
 }
