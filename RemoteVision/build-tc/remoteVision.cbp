@@ -98,13 +98,31 @@
       </Build>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.cpp">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/main.cpp">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.h">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataEntry.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

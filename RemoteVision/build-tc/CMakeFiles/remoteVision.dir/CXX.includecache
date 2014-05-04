@@ -19,6 +19,8 @@ neuralNetwork.h
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
 neuralNetworkTrainer.h
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
+ubyteextractor.h
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h
 ctime
 -
 fstream
@@ -59,6 +61,20 @@ vector
 -
 neuralNetwork.h
 /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+
+/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h
+string
+-
+cstring
+-
+cstdio
+-
+fstream
+-
+byteswap.h
+-
+arpa/inet.h
+-
 
 /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
 cstdio

@@ -4,7 +4,10 @@
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.cpp
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alaudio/alsoundextractor.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alcommon/albroker.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alcommon/alfunctor.h
@@ -723,6 +726,7 @@ CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/config.h
  /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvision/alvisiondefinitions.h
@@ -1443,3 +1447,6 @@ CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp
  /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp
+ /home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h

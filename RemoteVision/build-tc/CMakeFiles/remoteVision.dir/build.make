@@ -190,6 +190,29 @@ CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides: CMakeFiles/remo
 
 CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.provides.build: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
 
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o: ../ubyteextractor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp"
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/ubyteextractor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp" > CMakeFiles/remoteVision.dir/ubyteextractor.cpp.i
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/ubyteextractor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp" -o CMakeFiles/remoteVision.dir/ubyteextractor.cpp.s
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides.build: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
+
 # Object files for target remoteVision
 remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/main.cpp.o" \
@@ -197,7 +220,8 @@ remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/dmfunctions.cpp.o" \
 "CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
-"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
+"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o" \
+"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -208,6 +232,7 @@ sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/dmfunctions.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/dataReader.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/build.make
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -248,7 +273,8 @@ remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/dmfunctions.cpp.o" \
 "CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
-"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
+"CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o" \
+"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -259,6 +285,7 @@ CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/dmfunctions
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/dataReader.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/build.make
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -298,6 +325,7 @@ CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/dmfunctions.cp
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/dataReader.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.requires
 .PHONY : CMakeFiles/remoteVision.dir/requires
 
 CMakeFiles/remoteVision.dir/clean:

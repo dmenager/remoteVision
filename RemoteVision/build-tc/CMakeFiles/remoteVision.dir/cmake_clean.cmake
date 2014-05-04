@@ -5,6 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/remoteVision.dir/dataReader.cpp.o"
   "CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o"
   "CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
+  "CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
   "sdk/bin/remoteVision.pdb"
   "sdk/bin/remoteVision"
   "sdk/bin/remoteVision.pdb"

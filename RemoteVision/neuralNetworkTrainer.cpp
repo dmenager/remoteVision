@@ -118,7 +118,7 @@ double neuralNetworkTrainer::getHiddenErrorGradient( int j )
 ********************************************************************/
 void neuralNetworkTrainer::trainNetwork( trainingDataSet* tSet )
 {
-	cout	<< endl << " Neural Network Training Starting: " << endl
+    cout	<< endl << " Neural Network Training Starting: " << endl
 			<< "==========================================================================" << endl
 			<< " LR: " << learningRate << ", Momentum: " << momentum << ", Max Epochs: " << maxEpochs << endl
 			<< " " << NN->nInput << " Input Neurons, " << NN->nHidden << " Hidden Neurons, " << NN->nOutput << " Output Neurons" << endl
@@ -153,9 +153,9 @@ void neuralNetworkTrainer::trainNetwork( trainingDataSet* tSet )
 		//print out change in training /generalization accuracy (only if a change is greater than a percent)
 		if ( ceil(previousTAccuracy) != ceil(trainingSetAccuracy) || ceil(previousGAccuracy) != ceil(generalizationSetAccuracy) ) 
 		{	
-			cout << "Epoch :" << epoch;
-			cout << " TSet Acc:" << trainingSetAccuracy << "%, MSE: " << trainingSetMSE ;
-			cout << " GSet Acc:" << generalizationSetAccuracy << "%, MSE: " << generalizationSetMSE << endl;				
+            cout << "Epoch :" << epoch;
+            cout << " TSet Acc:" << trainingSetAccuracy << "%, MSE: " << trainingSetMSE ;
+            cout << " GSet Acc:" << generalizationSetAccuracy << "%, MSE: " << generalizationSetMSE << endl;
 		}
 		
 		//once training set is complete increment epoch
@@ -172,9 +172,9 @@ void neuralNetworkTrainer::trainNetwork( trainingDataSet* tSet )
 	logFile << "Training Complete!!! - > Elapsed Epochs: " << epoch << " Validation Set Accuracy: " << validationSetAccuracy << " Validation Set MSE: " << validationSetMSE << endl;
 			
 	//out validation accuracy and MSE
-	cout << endl << "Training Complete!!! - > Elapsed Epochs: " << epoch << endl;
-	cout << " Validation Set Accuracy: " << validationSetAccuracy << endl;
-	cout << " Validation Set MSE: " << validationSetMSE << endl << endl;
+    cout << endl << "Training Complete!!! - > Elapsed Epochs: " << epoch << endl;
+    cout << " Validation Set Accuracy: " << validationSetAccuracy << endl;
+    cout << " Validation Set MSE: " << validationSetMSE << endl << endl;
 }
 /*******************************************************************
 * Run a single training epoch

@@ -294,6 +294,30 @@ neuralNetworkTrainer.cpp.s:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s
 .PHONY : neuralNetworkTrainer.cpp.s
 
+ubyteextractor.o: ubyteextractor.cpp.o
+.PHONY : ubyteextractor.o
+
+# target to build an object file
+ubyteextractor.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
+.PHONY : ubyteextractor.cpp.o
+
+ubyteextractor.i: ubyteextractor.cpp.i
+.PHONY : ubyteextractor.i
+
+# target to preprocess a source file
+ubyteextractor.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/ubyteextractor.cpp.i
+.PHONY : ubyteextractor.cpp.i
+
+ubyteextractor.s: ubyteextractor.cpp.s
+.PHONY : ubyteextractor.s
+
+# target to generate assembly for a file
+ubyteextractor.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/ubyteextractor.cpp.s
+.PHONY : ubyteextractor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,6 +348,9 @@ help:
 	@echo "... neuralNetworkTrainer.o"
 	@echo "... neuralNetworkTrainer.i"
 	@echo "... neuralNetworkTrainer.s"
+	@echo "... ubyteextractor.o"
+	@echo "... ubyteextractor.i"
+	@echo "... ubyteextractor.s"
 .PHONY : help
 
 

@@ -14,6 +14,7 @@ class DMFunctions
 public:
     DMFunctions();
     void DisplayVid(AL::ALValue& vPtr);
+    void Train();
 private:
     void locateObj();
     void find_squares(cv::Mat& image, std::vector<std::vector<cv::Point> >& squares);

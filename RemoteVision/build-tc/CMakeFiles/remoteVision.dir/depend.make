@@ -3,7 +3,10 @@
 
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../avcaptureremote.cpp
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../avcaptureremote.h
+CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../dataReader.h
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../dmfunctions.h
+CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../neuralNetwork.h
+CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: ../neuralNetworkTrainer.h
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alaudio/alsoundextractor.h
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alcommon/albroker.h
 CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alcommon/alfunctor.h
@@ -722,6 +725,7 @@ CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.cpp
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../dmfunctions.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../neuralNetwork.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../neuralNetworkTrainer.h
+CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: ../ubyteextractor.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/alvalue.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvalue/config.h
 CMakeFiles/remoteVision.dir/dmfunctions.cpp.o: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/include/alvision/alvisiondefinitions.h
@@ -1442,4 +1446,7 @@ CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../dataReader.h
 CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetwork.h
 CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetworkTrainer.cpp
 CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o: ../neuralNetworkTrainer.h
+
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o: ../ubyteextractor.cpp
+CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o: ../ubyteextractor.h
 

@@ -19,6 +19,8 @@ set(_srcs
   neuralNetwork.h
   neuralNetworkTrainer.cpp
   neuralNetworkTrainer.h
+  ubyteextractor.h
+  ubyteextractor.cpp
 )
 
 if(AVCAPTURE_IS_REMOTE)

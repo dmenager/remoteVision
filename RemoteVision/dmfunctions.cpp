@@ -3,6 +3,7 @@
 //#include "dataReader.h"
 #include "neuralNetwork.h"
 #include "neuralNetworkTrainer.h"
+#include "ubyteextractor.h"
 
 #include <ctime>
 #include <fstream>
@@ -34,7 +35,7 @@ void DMFunctions::DisplayVid(AL::ALValue& vPtr)
       find_squares(imgHeader, squares);
       drawSquares(imgHeader, squares);
 
-      buildTrainingSet(imgHeader);
+      //buildTrainingSet(imgHeader);
 }
 
 double DMFunctions::angle(Point pt1, Point pt2, Point pt0)
@@ -51,7 +52,7 @@ void DMFunctions::find_squares(Mat& image, vector<vector<Point> >& squares)
 {
     // blur will enhance edge detection
     Mat blurred(image);
-    //medianBlur(image, blurred, 1);
+    medianBlur(image, blurred, 5);
 
     Mat gray0(blurred.size(), CV_8U), gray;
     vector<vector<Point> > contours;
@@ -161,11 +162,19 @@ void DMFunctions::buildTrainingSet(Mat& img)
      "0, 1, 0, 0, 0, 0, 0, 0, 0, 0",
      "1, 0, 0, 0, 0, 0, 0, 0, 0, 0"};
 
-    ofstream fo("customDataSet.csv", ios_base::ate | ios_base::app);
+    ofstream fo;
+
+    fo.flush();
+
+    fo.open("customDataSet.csv", ios_base::ate | ios_base::app);
+
     //to grayscale
     cv::cvtColor(img, img, CV_BGR2GRAY);
 
     resize(img,img,Size(30, 30));
+
+    imshow("images", img);
+    sleep(10);
 
     //get pixel data
     uint8_t* pixelPtr = (uint8_t*)img.data;
@@ -179,11 +188,47 @@ void DMFunctions::buildTrainingSet(Mat& img)
 
             // do something with value...
             fo << (int)Pixel << ", ";
+            fo.flush();
         }
     }
 
-    fo << answers[0];
-    fo << "\n";
+    fo << answers[0] << endl;
     fo.close();
-    sleep(5);
+}
+
+void DMFunctions::Train()
+{
+    srand(time(NULL));
+
+    //UbyteExtractor e;
+
+    //e.convert();
+
+
+    dataReader d;
+    d.loadDataFile("dataSet.csv", 28 * 28, 10);
+
+    d.setCreationApproach(GROWING, 10);
+
+    neuralNetwork nn(28 * 28, 200, 10);
+
+    neuralNetworkTrainer nT(&nn);
+
+    nT.setTrainingParameters(0.001, 0.9, false);
+    nT.setStoppingConditions(150, 90);
+    nT.enableLogging("log.csv", 5);
+
+    fstream log("log.txt");
+
+    //train neural network on data sets
+    for (int i=0; i < d.getNumTrainingSets(); i++ )
+    {
+        log << "Starting training set " << i << endl;
+        nT.trainNetwork( d.getTrainingDataSet() );
+        nn.saveWeights("intermediate_w.csv");
+    }
+
+    //save the weights
+    nn.saveWeights("weights.csv");
+
 }

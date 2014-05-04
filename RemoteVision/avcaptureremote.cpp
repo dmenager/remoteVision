@@ -3,6 +3,8 @@
  */
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 #include "avcaptureremote.h"
 
 #include <qi/os.hpp>
@@ -10,7 +12,10 @@
 #include <alcommon/alproxy.h>
 #include <alcommon/albroker.h>
 #include <alvision/alvisiondefinitions.h>
+
 #include "dmfunctions.h"
+#include "neuralNetwork.h"
+#include "neuralNetworkTrainer.h"
 
 int AVCaptureRemote::kMaxNofSamples = 16384;
 
@@ -46,7 +51,8 @@ AVCaptureRemote::AVCaptureRemote(
   BIND_METHOD(AVCaptureRemote::stopCapture);
 }
 
-AVCaptureRemote::~AVCaptureRemote() {
+AVCaptureRemote::~AVCaptureRemote()
+{
   stopCapture();
   if (fAudioBuffer!=NULL)
   {
@@ -57,8 +63,11 @@ AVCaptureRemote::~AVCaptureRemote() {
 
 void AVCaptureRemote::init()
 {
-    //startCapture(true, true);
-    startCapture(false, true);
+    DMFunctions trainer;
+
+    trainer.Train();
+
+    //startCapture(false, true);
 }
 
 bool AVCaptureRemote::isCapturing()
