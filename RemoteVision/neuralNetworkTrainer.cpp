@@ -146,7 +146,7 @@ void neuralNetworkTrainer::trainNetwork( trainingDataSet* tSet )
 		//Log Training results
 		if ( loggingEnabled && logFile.is_open() && ( epoch - lastEpochLogged == logResolution ) ) 
 		{
-			logFile << epoch << "," << trainingSetAccuracy << "," << generalizationSetAccuracy << "," << trainingSetMSE << "," << generalizationSetMSE << endl;
+            logFile << "Epoch : " << epoch << ", TSetAccuracy: " << trainingSetAccuracy << "%, GSet Acc: " << generalizationSetAccuracy << "%, TMSE: " << trainingSetMSE << "%, GMSE: " << generalizationSetMSE << "%" << endl;
 			lastEpochLogged = epoch;
 		}
 		

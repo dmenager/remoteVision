@@ -213,6 +213,75 @@ CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides: CMakeFiles/remoteVisi
 
 CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.provides.build: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
 
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o: ../nearestneighbour.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.cpp"
+
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/nearestneighbour.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.cpp" > CMakeFiles/remoteVision.dir/nearestneighbour.cpp.i
+
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/nearestneighbour.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.cpp" -o CMakeFiles/remoteVision.dir/nearestneighbour.cpp.s
+
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.provides: CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.provides.build: CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o: ../PracticalSocket.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.cpp"
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/PracticalSocket.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.cpp" > CMakeFiles/remoteVision.dir/PracticalSocket.cpp.i
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/PracticalSocket.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.cpp" -o CMakeFiles/remoteVision.dir/PracticalSocket.cpp.s
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.provides: CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.provides.build: CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o
+
+CMakeFiles/remoteVision.dir/server.cpp.o: CMakeFiles/remoteVision.dir/flags.make
+CMakeFiles/remoteVision.dir/server.cpp.o: ../server.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles" $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/remoteVision.dir/server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/remoteVision.dir/server.cpp.o -c "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.cpp"
+
+CMakeFiles/remoteVision.dir/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/remoteVision.dir/server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.cpp" > CMakeFiles/remoteVision.dir/server.cpp.i
+
+CMakeFiles/remoteVision.dir/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/remoteVision.dir/server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.cpp" -o CMakeFiles/remoteVision.dir/server.cpp.s
+
+CMakeFiles/remoteVision.dir/server.cpp.o.requires:
+.PHONY : CMakeFiles/remoteVision.dir/server.cpp.o.requires
+
+CMakeFiles/remoteVision.dir/server.cpp.o.provides: CMakeFiles/remoteVision.dir/server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/server.cpp.o.provides.build
+.PHONY : CMakeFiles/remoteVision.dir/server.cpp.o.provides
+
+CMakeFiles/remoteVision.dir/server.cpp.o.provides.build: CMakeFiles/remoteVision.dir/server.cpp.o
+
 # Object files for target remoteVision
 remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/main.cpp.o" \
@@ -221,7 +290,10 @@ remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o" \
-"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
+"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o" \
+"CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o" \
+"CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o" \
+"CMakeFiles/remoteVision.dir/server.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -233,6 +305,9 @@ sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/dataReader.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o
+sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/server.cpp.o
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/build.make
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -258,6 +333,10 @@ sdk/bin/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libale
 sdk/bin/remoteVision: /usr/local/lib/libopencv_highgui.so
 sdk/bin/remoteVision: /usr/local/lib/libopencv_imgproc.so
 sdk/bin/remoteVision: /usr/local/lib/libopencv_core.so
+sdk/bin/remoteVision: /usr/lib/x86_64-linux-gnu/libSM.so
+sdk/bin/remoteVision: /usr/lib/x86_64-linux-gnu/libICE.so
+sdk/bin/remoteVision: /usr/lib/x86_64-linux-gnu/libX11.so
+sdk/bin/remoteVision: /usr/lib/x86_64-linux-gnu/libXext.so
 sdk/bin/remoteVision: CMakeFiles/remoteVision.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sdk/bin/remoteVision"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/remoteVision.dir/link.txt --verbose=$(VERBOSE)
@@ -274,7 +353,10 @@ remoteVision_OBJECTS = \
 "CMakeFiles/remoteVision.dir/dataReader.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o" \
 "CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o" \
-"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
+"CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o" \
+"CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o" \
+"CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o" \
+"CMakeFiles/remoteVision.dir/server.cpp.o"
 
 # External object files for target remoteVision
 remoteVision_EXTERNAL_OBJECTS =
@@ -286,6 +368,9 @@ CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/dataReader.
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o
+CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/server.cpp.o
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/build.make
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalaudio.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5-linux64/lib/libalvision.so
@@ -311,6 +396,10 @@ CMakeFiles/CMakeRelink.dir/remoteVision: /home/dmenager/NAO/SDK/naoqi-sdk-1.14.5
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_highgui.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_imgproc.so
 CMakeFiles/CMakeRelink.dir/remoteVision: /usr/local/lib/libopencv_core.so
+CMakeFiles/CMakeRelink.dir/remoteVision: /usr/lib/x86_64-linux-gnu/libSM.so
+CMakeFiles/CMakeRelink.dir/remoteVision: /usr/lib/x86_64-linux-gnu/libICE.so
+CMakeFiles/CMakeRelink.dir/remoteVision: /usr/lib/x86_64-linux-gnu/libX11.so
+CMakeFiles/CMakeRelink.dir/remoteVision: /usr/lib/x86_64-linux-gnu/libXext.so
 CMakeFiles/CMakeRelink.dir/remoteVision: CMakeFiles/remoteVision.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/remoteVision"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/remoteVision.dir/relink.txt --verbose=$(VERBOSE)
@@ -326,6 +415,9 @@ CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/dataReader.cpp
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o.requires
 CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o.requires
+CMakeFiles/remoteVision.dir/requires: CMakeFiles/remoteVision.dir/server.cpp.o.requires
 .PHONY : CMakeFiles/remoteVision.dir/requires
 
 CMakeFiles/remoteVision.dir/clean:

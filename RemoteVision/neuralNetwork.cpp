@@ -67,7 +67,7 @@ neuralNetwork::~neuralNetwork()
 	delete[] wInputHidden;
 
 	for (int j=0; j <= nHidden; j++) delete[] wHiddenOutput[j];
-	delete[] wHiddenOutput;	
+    delete[] wHiddenOutput;
 }
 /*******************************************************************
 * Load Neuron Weights
@@ -208,15 +208,23 @@ bool neuralNetwork::saveWeights(char* filename)
 /*******************************************************************
 * Feed pattern through network and return results
 ********************************************************************/
-int* neuralNetwork::feedForwardPattern(double *pattern)
+string neuralNetwork::feedForwardPattern(double *pattern)
 {
 	feedForward(pattern);
 
 	//create copy of output results
 	int* results = new int[nOutput];
-	for (int i=0; i < nOutput; i++ ) results[i] = clampOutput(outputNeurons[i]);
+    stringstream ss;
+    for (int i=0; i < nOutput; i++ )
+    {
+        results[i] = clampOutput(outputNeurons[i]);
+        ss << results[i];
+    }
 
-	return results;
+    cout << "Answer is: ";
+    cout << ss.str() << endl;
+
+    return ss.str();
 }
 /*******************************************************************
 * Return the NN accuracy on the set
@@ -328,7 +336,10 @@ inline int neuralNetwork::clampOutput( double x )
 void neuralNetwork::feedForward(double* pattern)
 {
 	//set input neurons to input values
-	for(int i = 0; i < nInput; i++) inputNeurons[i] = pattern[i];
+    for(int i = 0; i < nInput; i++)
+    {
+        inputNeurons[i] = pattern[i];
+    }
 	
 	//Calculate Hidden Layer values - include bias neuron
 	//--------------------------------------------------------------------------------------------------------

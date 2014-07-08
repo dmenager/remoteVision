@@ -150,6 +150,30 @@ remoteVision/preinstall:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/preinstall
 .PHONY : remoteVision/preinstall
 
+PracticalSocket.o: PracticalSocket.cpp.o
+.PHONY : PracticalSocket.o
+
+# target to build an object file
+PracticalSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o
+.PHONY : PracticalSocket.cpp.o
+
+PracticalSocket.i: PracticalSocket.cpp.i
+.PHONY : PracticalSocket.i
+
+# target to preprocess a source file
+PracticalSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/PracticalSocket.cpp.i
+.PHONY : PracticalSocket.cpp.i
+
+PracticalSocket.s: PracticalSocket.cpp.s
+.PHONY : PracticalSocket.s
+
+# target to generate assembly for a file
+PracticalSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/PracticalSocket.cpp.s
+.PHONY : PracticalSocket.cpp.s
+
 avcaptureremote.o: avcaptureremote.cpp.o
 .PHONY : avcaptureremote.o
 
@@ -246,6 +270,30 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+nearestneighbour.o: nearestneighbour.cpp.o
+.PHONY : nearestneighbour.o
+
+# target to build an object file
+nearestneighbour.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o
+.PHONY : nearestneighbour.cpp.o
+
+nearestneighbour.i: nearestneighbour.cpp.i
+.PHONY : nearestneighbour.i
+
+# target to preprocess a source file
+nearestneighbour.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/nearestneighbour.cpp.i
+.PHONY : nearestneighbour.cpp.i
+
+nearestneighbour.s: nearestneighbour.cpp.s
+.PHONY : nearestneighbour.s
+
+# target to generate assembly for a file
+nearestneighbour.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/nearestneighbour.cpp.s
+.PHONY : nearestneighbour.cpp.s
+
 neuralNetwork.o: neuralNetwork.cpp.o
 .PHONY : neuralNetwork.o
 
@@ -294,6 +342,30 @@ neuralNetworkTrainer.cpp.s:
 	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.s
 .PHONY : neuralNetworkTrainer.cpp.s
 
+server.o: server.cpp.o
+.PHONY : server.o
+
+# target to build an object file
+server.cpp.o:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/server.cpp.o
+.PHONY : server.cpp.o
+
+server.i: server.cpp.i
+.PHONY : server.i
+
+# target to preprocess a source file
+server.cpp.i:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/server.cpp.i
+.PHONY : server.cpp.i
+
+server.s: server.cpp.s
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.cpp.s:
+	$(MAKE) -f CMakeFiles/remoteVision.dir/build.make CMakeFiles/remoteVision.dir/server.cpp.s
+.PHONY : server.cpp.s
+
 ubyteextractor.o: ubyteextractor.cpp.o
 .PHONY : ubyteextractor.o
 
@@ -330,6 +402,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... remoteVision"
+	@echo "... PracticalSocket.o"
+	@echo "... PracticalSocket.i"
+	@echo "... PracticalSocket.s"
 	@echo "... avcaptureremote.o"
 	@echo "... avcaptureremote.i"
 	@echo "... avcaptureremote.s"
@@ -342,12 +417,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... nearestneighbour.o"
+	@echo "... nearestneighbour.i"
+	@echo "... nearestneighbour.s"
 	@echo "... neuralNetwork.o"
 	@echo "... neuralNetwork.i"
 	@echo "... neuralNetwork.s"
 	@echo "... neuralNetworkTrainer.o"
 	@echo "... neuralNetworkTrainer.i"
 	@echo "... neuralNetworkTrainer.s"
+	@echo "... server.o"
+	@echo "... server.i"
+	@echo "... server.s"
 	@echo "... ubyteextractor.o"
 	@echo "... ubyteextractor.i"
 	@echo "... ubyteextractor.s"

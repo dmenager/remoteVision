@@ -9,6 +9,9 @@
 #include <alcommon/albrokermanager.h>
 #include <alcommon/altoolsmain.h>
 #include "avcaptureremote.h"
+#include "server.h"
+
+#include <X11/Xlib.h>
 
 #ifdef AVCAPTURE_IS_REMOTE
 # define ALCALL
@@ -27,6 +30,10 @@ ALCALL int _createModule(boost::shared_ptr<AL::ALBroker> pBroker)
   AL::ALBrokerManager::setInstance(pBroker->fBrokerManager.lock());
   AL::ALBrokerManager::getInstance()->addBroker(pBroker);
   AL::ALModule::createModule<AVCaptureRemote>(pBroker, "AVCaptureRemote");
+
+  AL::ALBrokerManager::setInstance(pBroker->fBrokerManager.lock());
+  AL::ALBrokerManager::getInstance()->addBroker(pBroker);
+  AL::ALModule::createModule<server>(pBroker, "server");
   return 0;
 }
 
@@ -38,13 +45,21 @@ ALCALL int _closeModule()
 
 #ifdef AVCAPTURE_IS_REMOTE
 
+
+AL::ALValue AVCaptureRemote::lImage;
+
 int main(int argc, char *argv[])
 {
+
+    XInitThreads();
   // pointer to createModule
   TMainType sig;
   sig = &_createModule;
 
   // call main
-  ALTools::mainFunction("AVCapture", argc, argv, sig);
+  ALTools::mainFunction("server", argc, argv, sig);
+
+
+          //ALTools::mainFunction("AVCapture", argc, argv, sig);
 }
 #endif

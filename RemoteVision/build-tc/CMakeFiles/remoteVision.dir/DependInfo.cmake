@@ -4,12 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/PracticalSocket.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/avcaptureremote.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/dataReader.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/dmfunctions.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/main.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/main.cpp.o"
+  "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/nearestneighbour.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/neuralNetwork.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/neuralNetworkTrainer.cpp.o"
+  "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/server.cpp.o"
   "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp" "/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/build-tc/CMakeFiles/remoteVision.dir/ubyteextractor.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

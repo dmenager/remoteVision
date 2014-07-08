@@ -5,8 +5,16 @@
 #include <cstring>
 #include <cstdio>
 #include <fstream>
+#include <vector>
 #include <byteswap.h>
 #include <arpa/inet.h>
+
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv/cv.h>
+#include <opencv2/imgproc/imgproc.hpp>
+
+#include "radonTransformer.h"
 
 class UbyteExtractor
 {
@@ -15,7 +23,7 @@ class UbyteExtractor
           virtual ~UbyteExtractor();
           void convert();
     private:
-          void build(std::fstream& fin, std::fstream& fin2, std::ofstream& fout, std::ofstream& log);
+          std::vector<std::vector<pixel> > build(std::fstream& fin, std::fstream& fin2, std::ofstream& fout, std::ofstream& log);
 
 };
 

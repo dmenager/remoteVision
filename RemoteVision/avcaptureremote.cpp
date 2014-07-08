@@ -5,6 +5,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <cstring>
+#include <string.h>
 #include "avcaptureremote.h"
 
 #include <qi/os.hpp>
@@ -12,12 +14,17 @@
 #include <alcommon/alproxy.h>
 #include <alcommon/albroker.h>
 #include <alvision/alvisiondefinitions.h>
+#include <alproxies/altexttospeechproxy.h>
 
 #include "dmfunctions.h"
 #include "neuralNetwork.h"
 #include "neuralNetworkTrainer.h"
 
+using namespace AL;
+using namespace std;
 int AVCaptureRemote::kMaxNofSamples = 16384;
+
+ALTextToSpeechProxy* voice;
 
 /**
  * Constructor for AVCaptureRemote object
@@ -36,6 +43,7 @@ AVCaptureRemote::AVCaptureRemote(
 , fFramerate(30)
 , fVideoThread()
 {
+    voice = new ALTextToSpeechProxy(getParentBroker());
   setModuleDescription("Captures audio and video.");
 
   functionName("isCapturing", "AVCaptureRemote", "Says if the capture was started.");
@@ -63,11 +71,13 @@ AVCaptureRemote::~AVCaptureRemote()
 
 void AVCaptureRemote::init()
 {
-    DMFunctions trainer;
 
-    trainer.Train();
+    //DMFunctions vidMod;
 
-    //startCapture(false, true);
+    //vidMod.Train();
+    //cout << "Training Complete \n";
+
+    startCapture(false, true);
 }
 
 bool AVCaptureRemote::isCapturing()
@@ -138,7 +148,7 @@ void AVCaptureRemote::process(const int &pNbOfInputChannels,
 {
   // Add your code for sound processing here
   // Input is a 4-channels raw 16-bit-integer buffer at 48kHz.
-  std::cout << xGetTime() << ":audio" << std::endl;
+  std::cout << xGetTime() << ", AVCaptureRemote::voice(broker):audio" << std::endl;
 
   return;
   // Example: deinterleaving operation.
@@ -202,9 +212,7 @@ void AVCaptureRemote::xStopVideo()
 
 void * AVCaptureRemote::xVideoThread(void *pArg)
 {
-    DMFunctions vidMod;
   AVCaptureRemote* lThis = (AVCaptureRemote*)pArg;
-  AL::ALValue lImage;
   lImage.arraySetSize(7);
 
   // Time measurement
@@ -242,8 +250,10 @@ void * AVCaptureRemote::xVideoThread(void *pArg)
       //    const char* dataPointer =  static_cast<const char*>(image[6].GetBinary());
       //    int size = image[6].getSize();
 
+
       //send video!!
-      vidMod.DisplayVid(lImage);
+      //int  ans = vidMod.DisplayVid(lImage);
+
 
 
       // Releasing the image for video device
@@ -256,7 +266,6 @@ void * AVCaptureRemote::xVideoThread(void *pArg)
     if(lThis->fCapturingVideo)
       lThis->xStopVideo();
   }
-
   return 0;
 }
 

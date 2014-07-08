@@ -12,6 +12,7 @@
 
 #include <cstring>
 #include <cstdlib>
+#include <sstream>
 
 class neuralNetworkTrainer;
 
@@ -31,7 +32,7 @@ private:
 
 	//weights
 	double** wInputHidden;
-	double** wHiddenOutput;
+    double** wHiddenOutput;
 		
 	//Friends
 	//--------------------------------------------------------------------------------------------
@@ -49,7 +50,7 @@ public:
 	//weight operations
 	bool loadWeights(char* inputFilename);
 	bool saveWeights(char* outputFilename);
-	int* feedForwardPattern( double* pattern );
+    std::string feedForwardPattern( double* pattern );
 	double getSetAccuracy( std::vector<dataEntry*>& set );
 	double getSetMSE( std::vector<dataEntry*>& set );
 

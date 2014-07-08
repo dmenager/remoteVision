@@ -9,6 +9,7 @@
 #include <alcommon/almodule.h>
 #include <alaudio/alsoundextractor.h>
 #include <alproxies/alvideodeviceproxy.h>
+#include <alproxies/altexttospeechproxy.h>
 #include <pthread.h>
 
 namespace AL
@@ -102,6 +103,7 @@ private:
     /// Video thread object.
     pthread_t fVideoThread;
 
+
     /// Video acquisition loop.
     /// @param pArg user data, here the module instance.
     /// @return Thread return value
@@ -110,6 +112,10 @@ private:
       /// Get the time in Us
       /// @return time in Us
       static long long xGetTime();
+
+public:
+
+      static AL::ALValue lImage;
 };
 
 #endif  // AVCAPTURE_AVCAPTUREREMOTE_H

@@ -8,6 +8,8 @@
 #include <math.h>
 #include <algorithm>
 
+//#include "radonTransformer.h"
+
 using namespace std;
 
 /*******************************************************************
@@ -146,7 +148,7 @@ void dataReader::setCreationApproach( int approach, double param1, double param2
 			creationApproach = GROWING;
 		
 			//step size
-			growingStepSize = param1 / 100;
+            growingStepSize = param1 / 50;
 			growingLastDataIndex = 0;
 
 			//number of sets

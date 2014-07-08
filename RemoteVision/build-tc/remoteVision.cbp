@@ -96,6 +96,8 @@
          </MakeCommands>
       </Target>
       </Build>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.cpp">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.cpp">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dataReader.cpp">
@@ -104,11 +106,17 @@
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/main.cpp">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.cpp">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.cpp">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.cpp">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.cpp">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.cpp">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/PracticalSocket.h">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/avcaptureremote.h">
       </Unit>
@@ -118,9 +126,15 @@
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/dmfunctions.h">
       </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/nearestneighbour.h">
+      </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetwork.h">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/neuralNetworkTrainer.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/radonTransformer.h">
+      </Unit>
+      <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/server.h">
       </Unit>
       <Unit filename="/home/dmenager/NAO/AE 756 Worktree/remoteVision/RemoteVision/ubyteextractor.h">
       </Unit>
